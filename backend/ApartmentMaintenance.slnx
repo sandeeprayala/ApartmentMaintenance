@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Apartment.Api/Apartment.Api.csproj" />
+  <Project Path="Apartment.Application/Apartment.Application.csproj" />
+  <Project Path="Apartment.Domain/Apartment.Domain.csproj" />
+  <Project Path="Apartment.Infrastructure/Apartment.Infrastructure.csproj" />
+  <Project Path="Apartment.Persistence/Apartment.Persistence.csproj" />
+  <Project Path="Apartment.Tests/Apartment.Tests.csproj" />
+</Solution>
