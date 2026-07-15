@@ -12,7 +12,7 @@ public class Owner : AuditableEntity
 
     public string PhoneNumber { get; set; } = string.Empty;
 
-    public Guid ApartmentComplexId { get; set; }
+    public Guid CommunityId { get; set; }
 
     public Guid FlatId { get; set; }
 

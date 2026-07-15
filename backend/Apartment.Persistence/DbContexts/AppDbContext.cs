@@ -10,7 +10,7 @@ public class AppDbContext : DbContext
     {
     }
 
-    public DbSet<ApartmentComplex> ApartmentComplexes => Set<ApartmentComplex>();
+    public DbSet<Community> Community => Set<Community>();
 
     public DbSet<Block> Blocks => Set<Block>();
 

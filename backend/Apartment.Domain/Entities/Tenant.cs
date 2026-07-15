@@ -16,7 +16,7 @@ public class Tenant : AuditableEntity
 
     public DateTime? LeaseEndDate { get; set; }
 
-    public Guid ApartmentComplexId { get; set; }
+    public Guid CommunityId { get; set; }
 
     public Guid FlatId { get; set; }
 
