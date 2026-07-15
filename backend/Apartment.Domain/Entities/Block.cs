@@ -6,9 +6,9 @@ public class Block : AuditableEntity
 {
     public string Name { get; set; } = string.Empty;
 
-    public Guid ApartmentId { get; set; }
+    public Guid ApartmentComplexId { get; set; }
 
-    public Apartment Apartment { get; set; } = default!;
+    public ApartmentComplex ApartmentComplex { get; set; } = default!;
 
     public ICollection<Flat> Flats { get; set; } = new List<Flat>();
 }

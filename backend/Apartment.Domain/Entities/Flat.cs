@@ -6,7 +6,7 @@ public class Flat : AuditableEntity
 {
     public string FlatNumber { get; set; } = string.Empty;
 
-    public Guid ApartmentId { get; set; }
+    public Guid ApartmentComplexId { get; set; }
 
     public Guid BlockId { get; set; }
 

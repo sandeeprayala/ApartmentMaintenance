@@ -2,7 +2,7 @@ using Apartment.Domain.Common;
 
 namespace Apartment.Domain.Entities;
 
-public class Apartment : AuditableEntity
+public class ApartmentComplex : AuditableEntity
 {
     public string Name { get; set; } = string.Empty;
 
